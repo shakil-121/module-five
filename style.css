@@ -1,0 +1,71 @@
+*{ 
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif;
+} 
+/* hader nad navigation style */ 
+.nav-title{ 
+   font-weight: 800px; 
+   font-size: 45px;
+} 
+.text-praimary{ 
+    color: #FD6E0A;
+} 
+nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 50px 200px ;
+} 
+nav ul{ 
+    display: flex; 
+    align-items: center;
+} 
+nav li{ 
+    list-style: none; 
+    margin-left: 50px; 
+    font-weight: bold;
+} 
+.btn{ 
+    width: 150px; 
+    height: 50px; 
+    background-color: #FD6E0A; 
+    color: #fff; 
+    border-radius: 5px; 
+    border: 0; 
+    font-weight: bold;
+} 
+
+/* header banner style  */ 
+.new-btn{ 
+    width: 150px; 
+    height: 50px; 
+    color: #FD6E0A; 
+    border-radius: 5px; 
+    border: 1px solid #FD6E0A; 
+    font-weight: bold; 
+    margin-left:20px; 
+    background-color: none;
+}  
+.header{ 
+    background-image: url(images/header_bg.png), url(/images/developer.png); 
+    background-repeat: no-repeat; 
+    background-position: bottom right,left;
+}
+.hader-banner{ 
+    display: flex; 
+    margin: 50px 200px; 
+    align-items: center; 
+  
+} 
+.sub-title{ 
+    font-weight: 400; 
+    font-size: 45px;
+} 
+.header-title{ 
+    font-weight: 700; 
+    font-size: 55px; 
+    margin-top: 20px;
+} 
+.header-description{ 
+    margin-bottom: 30px; 
+    margin-top: 20px;
+}
