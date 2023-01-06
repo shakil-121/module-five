@@ -2,7 +2,10 @@
     margin: 0; 
     font-family: 'Open Sans', sans-serif;
 } 
-/* hader nad navigation style */ 
+/* hader nad navigation style */  
+.nav-item{ 
+    font-size: 20px;
+}
 .nav-title{ 
    font-weight: 800px; 
    font-size: 45px;
@@ -32,7 +35,17 @@ nav li{
     border-radius: 5px; 
     border: 0; 
     font-weight: bold;
-} 
+}  
+.btn:hover{ 
+    width: 153px; 
+    height: 53px; 
+    background-color: #f80074; 
+    color: #fff; 
+    border-radius: 5px; 
+    border: 0; 
+    font-weight: bold; 
+    transition: 1s;
+}
 
 /* header banner style  */ 
 .new-btn{ 
@@ -46,7 +59,7 @@ nav li{
     background-color: none;
 }  
 .header{ 
-    background-image: url(images/header_bg.png), url(/images/developer.png); 
+    background-image: url(./images/header_bg.png), url(./images/developer.png); 
     background-repeat: no-repeat; 
     background-position: bottom right,left;
 }
