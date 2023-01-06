@@ -75,10 +75,122 @@ nav li{
 } 
 .header-title{ 
     font-weight: 700; 
-    font-size: 55px; 
+    font-size: 45px; 
     margin-top: 20px;
 } 
 .header-description{ 
     margin-bottom: 30px; 
     margin-top: 20px;
+} 
+/* main section style */ 
+
+main{
+    max-width: 1140px; 
+    margin: 100px auto;  
+   
+} 
+
+.about-section{ 
+    background-color: #FFF8F3; 
+    text-align: center; 
+    padding: 130px 150px; 
+    
+} 
+.about-title{ 
+    margin-bottom: 30px;
+} 
+.about-description{ 
+    margin-bottom: 30px; 
+
+}
+.about-container{ 
+   display: flex; 
+justify-content: space-around; 
+border-top: 1px solid black;
+border-bottom: 1px solid black;  
+padding: 5px;
+} 
+.about-info p{ 
+    font-weight: bold; 
+
+} 
+.about-title{ 
+    font-size: 45px;
+} 
+
+/* skills section style */ 
+.skill-section{ 
+    max-width: 1140px; 
+    margin: 100px auto; 
+    text-align: center;
+}  
+.skill-section h1{ 
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+.skills{ 
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 50px;
+} 
+.skill-item{ 
+    padding: 33px; 
+    max-width: 15%;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 2px 1px 20px 0px;
+} 
+.skill-title{ 
+    margin-top: 10px;
+margin-bottom: 10px;
+} 
+.skill-description{ 
+} 
+
+/* resume section */ 
+.resume{ 
+    display: flex;  
+    justify-content:space-between ; 
+
+}  
+.edu{ 
+    margin-right: 5px;
+}
+.resume-title{ 
+text-align: center; 
+font-size: 40px; 
+margin: 80px 0px; 
+text-decoration: underline wavy black;
+} 
+.resume-element{ 
+    margin-bottom: 20px; 
+    border-bottom: 1px solid rgba(27, 27, 27, 0.596);
+} 
+.resume-sub-title{ 
+    margin-bottom: 20px;
+} 
+
+.btn-two{ 
+    text-align: center; 
+    margin-top: 50px;
+} 
+
+/* footer style  */  
+.footer-section{  
+    padding: 50px; 
+    height: 250px;
+    background-color: #FD6E0A;
+}
+.footer{  
+    display: flex; 
+     justify-content: space-between; 
+     max-width: 1140px; 
+     margin:0 auto; 
+     color: #ffff;
+} 
+.footer-title{ 
+    font-size: 45px;
+} 
+.footer-item h1{ 
+    margin-bottom: 20px;
 }
